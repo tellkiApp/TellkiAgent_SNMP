@@ -1,0 +1,21 @@
+{
+	"author": "guberni",
+	"name": "tellki-snmp-monitor",
+	"description": "Tellki SNMP monitor",
+	"version": "0.0.4",
+	"keywords": ["tellki","monitor","snmp", "real time"],
+	"homepage": "www.tellki.com",
+	"repository" : { 
+		"type" : "git", "url" : "https://github.com/tellkiApp/tellkiAgent_SNMP.git"  
+	},
+	"main": "./lib/snmp_monitor",
+	"bin": {
+		"tellki-snmp-monitor": "./bin/tellki-snmp-monitor"
+	},
+	"dependencies": {
+        "net-snmp": "~1.1.13"
+	},
+	"engines": {
+		"node": "*"
+	}
+}
