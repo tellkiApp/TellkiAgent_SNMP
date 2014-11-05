@@ -2,7 +2,7 @@
 	"author": "guberni",
 	"name": "tellki-snmp-monitor",
 	"description": "Tellki SNMP monitor",
-	"version": "0.0.4",
+	"version": "0.0.1",
 	"keywords": ["tellki","monitor","snmp", "real time"],
 	"homepage": "www.tellki.com",
 	"repository" : { 
